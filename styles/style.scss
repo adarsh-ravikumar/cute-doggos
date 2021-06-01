@@ -4,21 +4,15 @@
   box-sizing: border-box;
 }
 
-body{
-    overflow: hidden;
+body {
+  overflow: hidden;
 }
 
-.background{
-  width: 100%;
-  height: 100%;
-  z-index: -10;
-}
-
-.background img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    text-align: center;
+.background img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  text-align: center;
 }
 
 .doggo-container {
@@ -29,7 +23,6 @@ body{
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-
 }
 
 .doggo {
@@ -39,22 +32,22 @@ body{
   text-align: center;
 }
 
-button{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 93%;
-    width: 150px;
-    height: 30px;
-    outline: none;
-    border: none;
-    color: white;
-    background-color: rgb(114, 88, 83);
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 0.5s;
+button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 93%;
+  width: 150px;
+  height: 30px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: rgb(114, 88, 83);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
-button:hover{
-    top: 92%;
+button:hover {
+  top: 92%;
 }
